@@ -9,7 +9,7 @@ onload = () => {
   canvas = document.getElementById('canvas');
   ctx = canvas.getContext('2d');
 
-  for (i = 0; i < 75; i++) {
+  for (i = 0; i < 76; i++) {
     ctx.clearRect(0, 0, 48, 48);
     ctx.drawImage(alphabet, -48 * i, 0);
     image = document.createElement('img');
